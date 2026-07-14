@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
     #df.head()
 #Functional programming - verbs applied to nounsn(ex: R)
     #head(df)
-    
+
 orders = pd.read_csv("data/orders.csv")
 
 print("First rows")
@@ -17,3 +17,6 @@ print(orders.shape)
 
 sns.scatterplot(x="quantity", y="order_total", hue="category", data=orders)
 plt.show()
+
+
+#####push test
